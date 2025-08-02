@@ -6,7 +6,7 @@ import Stats from "@/components/sections/Stats";
 import About from "@/components/sections/About";
 import LogoTicker from "@/components/sections/LogoTicker";
 import Advantages from "@/components/sections/Advantages";
-import Cta from "@/components/sections/CTA";
+import Cta from "@/components/sections/Cta";
 
 
 export default function Home() {
