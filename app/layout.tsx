@@ -22,8 +22,8 @@ const catamaran = Catamaran({
 });
 
 export const metadata: Metadata = {
-  title: "MeshSpire | A peer to peer learning platform",
-  description: "Fastest and most optimized way of learning",
+  title: "Sgrids | Solvyn",
+  description: "One Intelligent Platform For All Your Energy Operations",
 };
 
 export default function RootLayout({
