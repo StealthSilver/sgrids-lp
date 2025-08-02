@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const Cta = () => {
+const About = () => {
   return (
-   <div>CTA</div>
+   <div>About</div>
   );
 };
 
-export default Cta;
+export default About;
