@@ -23,7 +23,7 @@
   *,
   ::before,
   ::after {
-    border: "hsl(var(--border))";
+    border-color: hsl(var(--border));
   }
 
   html {
@@ -31,6 +31,8 @@
   }
 
   body {
-    @apply bg-white text-black dark:bg-black dark:text-white transition-colors duration-300;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    @apply transition-colors duration-300 font-sans;
   }
 }

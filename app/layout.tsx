@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { IBM_Plex_Sans } from "next/font/google";
+import { ThemeProvider } from "@/components/ui/ThemeToggle";
 
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -19,9 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={ibmPlexSans.variable}>
-      <body className="bg-white font-sans">
-        {children}
+    <html lang="en" className={`${ibmPlexSans.variable}`}>
+      <body>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
