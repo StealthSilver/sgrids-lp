@@ -36,3 +36,24 @@
     @apply transition-colors duration-300 font-sans;
   }
 }
+
+/* Theme wipe animation: top-right to bottom-left */
+@keyframes theme-wipe {
+  from {
+    clip-path: circle(0% at 100% 0%);
+  }
+  to {
+    clip-path: circle(150% at 0% 100%);
+  }
+}
+
+.theme-transition {
+  animation: theme-wipe 0.6s ease forwards;
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  /* Important: no background-color to prevent flicker */
+  /* The cloned DOM element will show through */
+}

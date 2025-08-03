@@ -22,9 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${ibmPlexSans.variable}`}>
       <body>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+      <ThemeProvider>
+    <div id="theme-transition-wrapper">
+      {children}
+    </div>
+  </ThemeProvider>
       </body>
     </html>
   );
