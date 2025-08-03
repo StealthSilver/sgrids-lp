@@ -2,13 +2,13 @@
 
 
 import React from "react";
-import { World } from "../ui/Globe";// adjust path if needed
+import { World } from "../ui/Globe";
 
 const Hero = () => {
   return (
     <section className="w-full bg-white min-h-screen flex items-center dark:bg-black">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 mt-20">
-        {/* Text Content */}
+    
         <div className=" mx-auto md:ml-52">
           <h1 className="text-2xl md:text-6xl font-bold text-gray-900 mb-8 dark:text-slate-400">
             The Only Platform You Need For Renewable Intelligence
