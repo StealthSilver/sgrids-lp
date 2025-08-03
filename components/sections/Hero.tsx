@@ -6,14 +6,14 @@ import { World } from "../ui/Globe";// adjust path if needed
 
 const Hero = () => {
   return (
-    <section className="w-full bg-white min-h-screen flex items-center">
+    <section className="w-full bg-white min-h-screen flex items-center dark:bg-black">
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 mt-20">
         {/* Text Content */}
-        <div className="ml-52">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900  mb-8">
+        <div className=" mx-auto md:ml-52">
+          <h1 className="text-2xl md:text-6xl font-bold text-gray-900 mb-8 dark:text-slate-400">
             The Only Platform You Need For Renewable Intelligence
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-12 ">
+          <p className="text-xl md:text-2xl text-gray-700 mb-12 dark:text-slate-500">
             Optimise renewable assets, ensure compliance, and streamline grid access, all on one platform with — <strong>Solvyn</strong>
           </p>
           <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition duration-300">
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         {/* Globe Component */}
-        <div className="h-[100px] md:h-[800px]">
+        <div className="h-[600px] md:h-[900px]">
           <World globeConfig={{
             pointSize: 1,
             globeColor: "#3b82f6",
