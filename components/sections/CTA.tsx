@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Cta = () => {
   return (
-   <div>CTA</div>
+   <div>Cta</div>
   );
 };
 
