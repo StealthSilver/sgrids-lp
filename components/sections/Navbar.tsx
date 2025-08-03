@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 p-4 border-b border-gray-200 dark:border-white/20 bg-white dark:bg-black dark:text-white">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between relative">
         
-        {/* Left Section: Logo */}
+       
         <div className="flex items-center">
           <Link href="/">
             <Image
@@ -34,8 +34,8 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Center Section: Navigation Links (Desktop Only) */}
-        <div className="hidden md:flex items-center gap-6">
+        
+        <div className="hidden md:flex items-center gap-10 ">
           <Link href="#about">About us</Link>
           <Link href="#services">Services</Link>
           <Link href="/blogs">News & Updates</Link>
@@ -43,7 +43,7 @@ export default function Navbar() {
           <Link href="#footer">Contact Us</Link>
         </div>
 
-        {/* Right Section: Theme Toggle & CTA Button (Desktop) */}
+        
         <div className="hidden md:flex items-center gap-4">
           <button
             onClick={toggleTheme}
@@ -59,7 +59,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Right Section (Mobile Only): Theme Toggle + Hamburger */}
+        
         <div className="md:hidden flex items-center gap-2">
           <button
             onClick={toggleTheme}
@@ -77,7 +77,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Dropdown Menu (Positioned absolutely) */}
+        
         {isMobileMenuOpen && (
           <div className="absolute top-full right-0 mt-2 w-1/2 bg-white dark:bg-black border border-gray-200 dark:border-white/20 rounded-lg shadow-lg p-4 flex flex-col gap-4 animate-slide-down z-50">
             <Link href="#about" onClick={handleMobileToggle}>About us</Link>
