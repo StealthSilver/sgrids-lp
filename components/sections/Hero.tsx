@@ -31,7 +31,7 @@ const Hero = () => {
             atmosphereAltitude: 0.1,
             emissive: "#000000",
             emissiveIntensity: 0.8,
-            shininess: 0.9,
+            shininess: 0.2,
             polygonColor: "rgba(255,255,255,0.7)",
             ambientLight: "#ffffff",
             directionalLeftLight: "#ffffff",
