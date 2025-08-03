@@ -8,7 +8,7 @@ export default function Navbar() {
       <Link href="#services">Services</Link>
       <Link href="/blogs">News & Updates</Link>
       <Link href="/news">Blogs</Link>
-      <Link href="/blogs">Contact Us</Link>
+      <Link href="#footer">Contact Us</Link>
     </nav>
   );
 }
