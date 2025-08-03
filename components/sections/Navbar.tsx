@@ -18,8 +18,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 p-4 border-b border-gray-200 dark:border-white/20 bg-white dark:bg-black dark:text-white">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between relative">
+    <nav className="m ticky top-0 z-50 p-4 border-b border-gray-200 dark:border-white/20 bg-white dark:bg-black dark:text-white">
+      <div className="max-w-7xl  mx-auto  flex items-center justify-between relative">
         
        
         <div className="flex items-center">
