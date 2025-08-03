@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="p-4 shadow bg-white dark:bg-black dark:text-white">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between">
-        {/* Left side */}
+        
         <div className="flex items-center gap-6">
           <Link href="/">
             <Image
